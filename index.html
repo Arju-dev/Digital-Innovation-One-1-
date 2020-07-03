@@ -1,0 +1,100 @@
+<html>
+<!--<head> encabezado de la pagina (nombre que aparece en la pestaña superior junto con el simbolo)-->
+	<head>
+		<title>La pagina do danielperdigoni</title>
+		<!--<link rel="stylesheet" href="estilos.css">-->
+		<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.ico">
+	</head>	
+	<!--<body> cuerpo de la pagina }(osea el contenido todo de la pagina principal)-->
+	<body>
+		<!--<script src="archivo.js"></script> es otro tipo de enlace para archivos javascript sin ensuciar todo el resto del documento HTML-->
+	
+		<!--h1 utilizamos para el titulo-->
+		<h1>Aprendiendo a hacer una pagina web</h1>
+		<!--<p> es para abrir y finalizar parrafos-->
+		<p>
+			<!--<i> se utiliza para letra inclinada-->
+			<!--<span> se utiliza para letra -->
+			<!--<b> se utiliza para letra negrita (bold)-->
+			<!--<strong> se utiliza para letra negra (bold)pero sirve tambien para el buscador de google(nao utilizar mucho porque google penaliza)-->
+			<!--span sirve para luego agregar un estilo de letra con CSS sin hacer enfasis para las busquedas-->
+			<!-- "I" sirve para dar estilo itali que es esa letra inclinada -->
+
+		A <i>Índia</i> é um dos países que mais desfruta de férias por ano. <span>De fato, o calendário oficial para feriados nacionais indianos tem mais de cinquenta feriados.</span> Neste calendário detalhado, <b>oferecemos os principais festivais da Índia 2020 - 2021</b>, essenciais para aprofundar os costumes do país e 
+		<strong>aprender em primeira mão o que consistem em seus desfiles e shows mais característicos.</strong>
+
+		</p>
+		<!--esta es la imagen de la mrdanga-->
+		<!--el atributo alt sirve para que cuando no cargue la imagen aparesca escrito el nombre y asi el buscador reconosca tambien la imagen, es bueno usarlo y no cambia nada en el texto-->
+		<img src="https://www.viajejet.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada-1440x810.jpg" alt="mrdanga" title="mrdanga de barro cozido" width="300" height="300" />
+		<!--target=_blank. se adiciona para que el link abra en otra pestaña-->
+		<br/>
+		<br/>
+		<a target="_blank" href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ">ir a youtube</a>
+
+		<!--existen rutas absolutas (tipo google) y relativas (tipo una imagen)-->
+
+		<a target="_blank" href="imagen/mrdanga.jpg">ir a la imagen</a>
+		<!--otro enlace pouede ser <link rel="stylesheet" href="estilos.css"> mas adelante vamos a utilizar-->
+
+		<!--nao sei porque no funciono en mi codigo pero el profesor dice que hay otras formas de adicionar correo electtronico y que eta formano es la mejor de hecho-->
+		
+		<a href="mailto:indiasaocarlos@gmail.com" title="enviar correo a Arjuna dasa"> enviar mail </a>
+
+		<!--<br/>otro tipo de etiqueta solo para hacer un espacio-->
+		<!--hr adiciona una linea entre u parrao e otro-->
+		<hr/>
+		<!--h2 para un subtitulo que puede ser tamaño: h3, h4, etc-->
+		<h2>
+			Subtitulo da pagina
+		</h2>
+		<!--block quote sirve para llamar una "cita"-->
+
+		<p>
+		<blockquote>A Índia é um dos países que mais desfruta de férias por ano. De fato, o calendário oficial para feriados nacionais indianos tem mais de cinquenta feriados. Neste calendário detalhado, oferecemos os principais festivais da Índia 2020 - 2021, essenciais para aprofundar os costumes do país e aprender em primeira mão o que consistem em seus desfiles e shows mais característicos.</blockquote>
+		<!-- Cite sirve para agregar el autor de la cita-->
+			<cite>Daniel perdigoni (Dhana)</cite>
+
+		</p>
+        <!--Lista <ul> sirve para un tipo de lista con puntitos-->
+		<ul>
+			<li><a href="#">item #1</a></li>
+			<li>item #2</li>
+				<ul>
+					<li>item #1</li>
+					<li>item #2</li>
+				</ul>
+			<li>item #4</li>
+			<li>item #5</li>
+
+		</ul>
+		<!--lista <ol> sirve para lista con numeros en este "href" pusimos un # para que el link o envie  nigun lugar-->
+		<ol>		
+			<li><a href="#">item #1</a></li>
+			<li>item #2</li>
+			<li>item #3</li>
+			<li>item #4</li>
+			<li>item #5</li>
+
+		</ol>
+
+		<table>
+			<tr>
+				<td>Elemento#1</td>
+				<td>Elemento#2</td>
+				<td>Elemento#3</td>
+			</tr>
+			<tr>
+				<td>Elemento#4</td>
+				<td>Elemento#5</td>
+				<td>Elemento#6</td>
+			</tr>
+			<tr>
+				<td>Elemento#7</td>
+				<td>Elemento#8</td>
+				<td>Elemento#9</td>
+			</tr>
+		</table>
+
+	</body>
+</html>
